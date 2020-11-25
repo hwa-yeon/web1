@@ -1,0 +1,49 @@
+<!-- 본문은 <body> </body> 태그, 본문을 설명하는 문장은 <head> </head> 태그로 묶기로 약속
+html문서임을 설명하기 위해 <!doctype html>사용, <html></html>로 전체 묶기-->
+<!doctype html>
+<html>
+<head>
+  <title>WEB - HTML</title>
+  <meta charset="utf-8">
+  <!-- <title> </title> : 제목태그
+  <meta charset="utf-8"> : utf-8로 문서를 열어라(문자 깨지지 않게 하기 위해) -->
+</head>
+
+ <body>
+  <h1><a href = "index.html">WEB</a></h1>
+  <ol>
+    <li><a href = "1.html">HTML</a></li>
+    <li><a href = "2.html">CSS</a></li>
+    <li><a href = "3.html">JavaScript</a></li>
+  </ol>
+  <!--
+  <li> </lu> : 목차태그, <ul> </ul>의 자식태그
+  <ul> </ul> : 목차 구분, <li> </li>의 부모태그
+  <ol> </ol> : ul과 동일하지만 목차 앞에 자동으로 숫자 추가
+  -->
+
+  <h2>HTML</h2>
+  <p><a href = "https://terms.naver.com/entry.nhn?docId=1168097&cid=40942&categoryId=32838" target = "_blank" title = "html 설명">
+    Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.
+   <!--
+   <__> : 열리는 태그 </__>: 닫히는 태그 , <strong> </strong> : 굵은 글씨, <u> </u> : 밑줄
+   <h1> </h1> : 제목 태그(개행됨), <h1></h1> ... <h6></h6> : 숫자가 커질수록 문자의 크기 작아짐.
+   <a> </a> : 링크 태그
+   target = "_blank" : 새탭으로 링크가 열리게 함, title = "html 설명" : 툴팁
+   -->
+  Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages.
+  HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+  <image src = "coding.jpg" width = "100%">
+  <p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects,
+  such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents
+  by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items.
+  HTML elements are delineated by tags, written using angle brackets. </p>
+  <!--
+  <br> : 줄바꿈태그
+  <p> </p> : 단락 태그
+  style = "margin-top:45px;" : css 문법, 정교한 작업 가능
+  <image> : 이미지 태그
+  src = "coding.jpg"와 width = "100%" : 속성(속성은 위치가 상관없음.)
+  -->
+</body>
+</html>
